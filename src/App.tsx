@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header.tsx';
 import { Hero } from './components/Hero.tsx';
 import { AskAboutDerrick } from './components/AskAboutDerrick.tsx';
@@ -27,6 +28,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0f141c] text-[#dee2ee] relative selection:bg-[#4edea3]/20 selection:text-[#4edea3]">
+      <Analytics />
       {/* Fixed Sticky Header Navigation */}
       <Header onOpenCvModal={() => setIsCvModalOpen(true)} />
 
