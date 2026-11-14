@@ -16,7 +16,7 @@ export const GitHubSection: React.FC = () => {
             </h2>
           </div>
           <a
-            href={PERSONAL_INFO.github}
+            href={https://github.com/Derrickham1234.github}
             target="_blank"
             rel="noreferrer"
             className="mt-4 md:mt-0 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#252a33] hover:bg-[#30353e] text-[#4edea3] font-mono text-xs font-semibold transition-all border border-white/5"
