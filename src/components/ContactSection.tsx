@@ -110,7 +110,7 @@ export const ContactSection: React.FC = () => {
                       required
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="Jane Doe"
+                      placeholder="Derrick Barasa"
                       className="w-full px-4 py-2.5 rounded-lg bg-[#171c24] text-[#dee2ee] text-sm focus:outline-none focus:ring-1 focus:ring-[#4edea3] placeholder:text-[#86948a] border border-white/5"
                     />
                   </div>
@@ -125,7 +125,7 @@ export const ContactSection: React.FC = () => {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="jane@example.com"
+                      placeholder="derrick@example.com"
                       className="w-full px-4 py-2.5 rounded-lg bg-[#171c24] text-[#dee2ee] text-sm focus:outline-none focus:ring-1 focus:ring-[#4edea3] placeholder:text-[#86948a] border border-white/5"
                     />
                   </div>
